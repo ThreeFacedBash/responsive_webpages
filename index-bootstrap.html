@@ -16,19 +16,19 @@
             Hello & Welcome!
         </h1>
         <p>
-            {{user.details}}  
+            {{data.user.details}}  
           </p>
         <div class="row justify-content-start" style="text-align:justify">
             <div class="col-md-6">
                 <h2>Full Name</h2>
                 <p>
                     <strong>
-                        {{user.fullName}}
+                        {{data.user.fullName}}
                     </strong>
                 </p>
         </div>
         <div class="col-md-6">
-            <img src="{{user.photo}}" class="rounded" alt="Thabo Ndlovu smiling">
+            <img src="{{data.user.photo}}" class="rounded" alt="Thabo Ndlovu smiling">
         </div>
         </div>
         <br>
@@ -44,7 +44,7 @@
                         City Of Choice
                     </h2>
                     <p><strong>
-                        {{city.name}}
+                        {{data.city.name}}
                     </strong>
                     </p>
                 </div>
@@ -53,21 +53,21 @@
                 <div>
                   
                     <p>
-                        <img src="{{city.photo}}" class="img-fluid rounded" alt="Picture of Silicon Valley">
+                        <img src="{{data.city.photo}}" class="img-fluid rounded" alt="Picture of Silicon Valley">
                     </p>
                 </div>
             </div>
             <div class="col-md-8 ">
                 <div>
                     <p>
-                        {{city.description}}
+                        {{data.city.description}}
                     </p>
                 </div>
             </div>
         </div>
         <div class="container text-center">
             <hr>
-            {{city.pointer}}
+            {{data.city.pointer}}
             <br>
         </div>
         <hr>
@@ -78,12 +78,12 @@
                 Foreign Languages Phrases
             </h2>
             <p><strong>
-                {{foreignLanguage.language}}
+                {{data.foreignLanguage.language}}
             </strong>
             </p>
             <div class="row justify-content-start" style="text-align:justify">
             <p>
-                {{foreignLanguage.languageDescription}}
+                {{data.foreignLanguage.languageDescription}}
             </p>
             </div>
             
@@ -95,38 +95,38 @@
                                 <tr>
                                     <td>
                                         <strong>
-                                            {{foreignLanguage.language}}
+                                            {{data.foreignLanguage.language}}
                                         </strong>
                                     </td>
                                     <td>
                                         <strong>
-                                            {{foreignLanguage.nativeLanguage}}
+                                            {{data.foreignLanguage.nativeLanguage}}
                                         </strong>
                                     </td>
                                 </tr>
                             </thead>
                             <tr>
                                 <td>
-                                    {{phrase1.foreignLanguage}}
+                                    {{data.phrase1.foreignLanguage}}
                                 </td>
                                 <td>
-                                    {{phrase1.englishPhrase}}
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    {{phrase2.foreignLanguage}}
-                                </td>
-                                <td>
-                                    {{phrase2.englishPhrase}}
+                                    {{data.phrase1.englishPhrase}}
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    {{phrase3.foreignLanguage}}
+                                    {{data.phrase2.foreignLanguage}}
                                 </td>
                                 <td>
-                                    {{phrase3.englishPhrase}}
+                                    {{data.phrase2.englishPhrase}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {{data.phrase3.foreignLanguage}}
+                                </td>
+                                <td>
+                                    {data.{phrase3.englishPhrase}}
                                 </td>
                             </tr>
                         </table>
@@ -144,27 +144,27 @@
                 <div class="col-md-2">
                     <div>
                         <p><strong>
-                                {{favouriteSubject1.name}}
+                                {{data.favouriteSubject1.name}}
                             </strong>
                         </p>
                         <p>
-                            {{favouriteSubject1.description}}
+                            {{data.favouriteSubject1.description}}
                         </p>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <br>
                     <br>
-                    <img src="{{favouriteSubject1.photo1}}" alt="Management Information System icon">
+                    <img src="{{data.favouriteSubject1.photo1}}" alt="Management Information System icon">
                 </div>
                 <div class="col-md-2">
                     <div>
                         <p><strong>
-                                {{favouriteSubject2.name}}
+                                {{data.favouriteSubject2.name}}
                             </strong>
                         </p>
                         <p>
-                            {{favouriteSubject2.description}}
+                            {{data.favouriteSubject2.description}}
                         </p>
 
                     </div>
@@ -172,16 +172,16 @@
                 <div class="col-md-2">
                     <br>
                     <br>
-                    <img src="{{favouriteSubject2.photo2}}" alt="Competitive Intelligence icon">
+                    <img src="{{data.favouriteSubject2.photo2}}" alt="Competitive Intelligence icon">
                 </div>
                 <div class="col-md-2">
                     <div>
                         <p><strong>
-                                {{favouriteSubject3.name}}
+                                {{data.favouriteSubject3.name}}
                             </strong>
                         </p>
                         <p>
-                            {{favouriteSubject3.description}}
+                            {{data.favouriteSubject3.description}}
                         </p>
 
                     </div>
@@ -189,7 +189,7 @@
                 <div class="col-md-2">
                     <br>
                     <br>
-                    <img src="{{favouriteSubject3.photo3}}" alt="Business Intelligence icon">
+                    <img src="{{data.favouriteSubject3.photo3}}" alt="Business Intelligence icon">
                 </div>
             </div>
 
@@ -202,7 +202,7 @@
 
         <div class="row align-items-start" style="text-align:center">
             <p>
-                {{thanks.manners}}
+                {{data.thanks.manners}}
             </p>
         </div>
         <div class="grid text-center" style="--bs-columns: 10; --bs-gap: 1rem;">
@@ -219,7 +219,7 @@
 <footer>
     <div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
     <p>
-        {{rights.owner}}
+        {{data.rights.owner}}
     </p>
 </div>
 </footer>
