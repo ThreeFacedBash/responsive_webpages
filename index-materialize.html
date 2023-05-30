@@ -20,7 +20,7 @@
             Hello & Welcome!
         </h1>
         <p style="text-align: justify;">
-            {{user.details}}  
+            {{data.user.details}}  
           </p>
           <div class="row">
             <div class="col s12 m12 l6">
@@ -29,12 +29,12 @@
                 </h2>
                 <p>
                     <strong>
-                        {{user.fullName}}
+                        {{data.user.fullName}}
                     </strong>
                 </p>
             </div>
             <div class="col s12 m12 l6">
-                <img src="{{user.photo}}" alt="Thabo Ndlovu smiling">
+                <img src="{{data.user.photo}}" alt="Thabo Ndlovu smiling">
         </div>
           </div>
           <hr>
@@ -45,14 +45,14 @@
             </h2>
             <p>
                 <strong>
-                    {{city.name}}
+                    {{data.city.name}}
                 </strong>
             </p> 
             <div class="row">
-                <div class="col s12 m12 l6"><img src="{{city.photo1}}" alt="San Francisco"></div>
+                <div class="col s12 m12 l6"><img src="{{data.city.photo1}}" alt="San Francisco"></div>
                 
                 <div class="col s12 m12 l6"> <p style="text-align: justify;">
-                    {{city.description}}
+                    {{data.city.description}}
                 </p></div>
               </div>
                    
@@ -60,7 +60,7 @@
         </section>
         <hr>
         <p style="text-align: center;">
-            {{city.pointer}}
+            {{data.city.pointer}}
         </p>
         <hr>
     
@@ -70,11 +70,11 @@
             </h2>
             <p>
                 <strong>
-                    {{foreignLanguage.language}}
+                    {{data.foreignLanguage.language}}
                 </strong>
             </p>
             <p style="text-align: justify;">
-                {{foreignLanguage.languageDescription}}
+                {{data.foreignLanguage.languageDescription}}
             </p>
             <div>
                 <table class= "striped">
@@ -82,38 +82,38 @@
                         <tr>
                             <td>
                                 <strong>
-                                    {{foreignLanguage.language}}
+                                    {{data.foreignLanguage.language}}
                                 </strong>
                             </td>
                             <td>
                                 <strong>
-                                    {{foreignLanguage.nativeLanguage}}
+                                    {{data.foreignLanguage.nativeLanguage}}
                                 </strong>
                             </td>
                         </tr>
                     </thead>
                     <tr>
                         <td>
-                            {{phrase1.foreignLanguage}}
+                            {{data.phrase1.foreignLanguage}}
                         </td>
                         <td>
-                            {{phrase1.englishPhrase}}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {{phrase2.foreignLanguage}}
-                        </td>
-                        <td>
-                            {{phrase2.englishPhrase}}
+                            {{data.phrase1.englishPhrase}}
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            {{phrase3.foreignLanguage}}
+                            {{data.phrase2.foreignLanguage}}
                         </td>
                         <td>
-                            {{phrase3.englishPhrase}}
+                            {{data.phrase2.englishPhrase}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{data.phrase3.foreignLanguage}}
+                        </td>
+                        <td>
+                            {{data.phrase3.englishPhrase}}
                         </td>
                     </tr>
                 </table>
@@ -129,40 +129,40 @@
                 <div class="col s12 m12 l2"><div>
                     <p style="text-align: center;">
                         <strong>
-                            {{favouriteSubject1.name}}
+                            {{data.favouriteSubject1.name}}
                     </strong>
                         </p>
-                    <p style="text-align: center;">{{favouriteSubject1.description}}</p>
+                    <p style="text-align: center;">{{data.favouriteSubject1.description}}</p>
                 </div>
             </div>
-                <div class="col s12 m12 l2"><br> <br><img src="{{favouriteSubject1.photo101}}" alt="Management Information System icon"></div>
+                <div class="col s12 m12 l2"><br> <br><img src="{{data.favouriteSubject1.photo101}}" alt="Management Information System icon"></div>
                 <div class="col s12 m12 l2"> <div>
                     <p style="text-align: center;">
                         <strong>
-                            {{favouriteSubject2.name}}
+                            {{data.favouriteSubject2.name}}
                         </strong>
                     </p>
                     <p style="text-align: center;">
-                        {{favouriteSubject2.description}}
+                        {{data.favouriteSubject2.description}}
                     </p>
                    </div></div>
-                <div class="col s12 m12 l2"> <br> <br> <img src="{{favouriteSubject2.photo201}}" alt="Competitive Intelligence icon"></div>
+                <div class="col s12 m12 l2"> <br> <br> <img src="{{data.favouriteSubject2.photo201}}" alt="Competitive Intelligence icon"></div>
                 <div class="col s12 m12 l2">  <div>
                     <p style="text-align: center;">
                        <strong>
-                        {{favouriteSubject3.name}}
+                        {{data.favouriteSubject3.name}}
                        </strong>
                     </p>
                     <p style="text-align: center;">
-                        {{favouriteSubject3.description}}
+                        {{data.favouriteSubject3.description}}
                     </p>
                 </div>
             </div>
-                <div class="col s12 m12 l2"> <br> <br> <img src="{{favouriteSubject3.photo3}}" alt="Business Intelligence icon"></div>
+                <div class="col s12 m12 l2"> <br> <br> <img src="{{data.favouriteSubject3.photo3}}" alt="Business Intelligence icon"></div>
         </div>  
         </section>
         <p style="text-align: center;">
-           {{thanks.manners}} 
+           {{data.thanks.manners}} 
         </p>
         <div class="row">
             <div class="col s6 m8 l10 offset-s4 offset-m5 offset-l5">
@@ -179,7 +179,7 @@
 <footer>
    <div class="card-panel teal lighten-5">
     <p>
-        {{rights.owner}}  
+        {{data.rights.owner}}  
      </p>
    </div> 
 </footer>
