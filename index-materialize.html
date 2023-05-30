@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meterialize Personal Webpage</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Hello & Welcome!
+        </h1>
+        <p style="text-align: justify;">
+            {{user.details}}  
+          </p>
+          <div class="row">
+            <div class="col s12 m12 l6">
+                <h2>
+                    Full Name
+                </h2>
+                <p>
+                    <strong>
+                        {{user.fullName}}
+                    </strong>
+                </p>
+            </div>
+            <div class="col s12 m12 l6">
+                <img src="{{user.photo}}" alt="Thabo Ndlovu smiling">
+        </div>
+          </div>
+          <hr>
+            <section>
+        <div>
+            <h2>
+                Which City?
+            </h2>
+            <p>
+                <strong>
+                    {{city.name}}
+                </strong>
+            </p> 
+            <div class="row">
+                <div class="col s12 m12 l6"><img src="{{city.photo1}}" alt="San Francisco"></div>
+                
+                <div class="col s12 m12 l6"> <p style="text-align: justify;">
+                    {{city.description}}
+                </p></div>
+              </div>
+                   
+        </div>
+        </section>
+        <hr>
+        <p style="text-align: center;">
+            {{city.pointer}}
+        </p>
+        <hr>
+    
+        <section>
+            <h2>
+                Foreign Languages Phrases
+            </h2>
+            <p>
+                <strong>
+                    {{foreignLanguage.language}}
+                </strong>
+            </p>
+            <p style="text-align: justify;">
+                {{foreignLanguage.languageDescription}}
+            </p>
+            <div>
+                <table class= "striped">
+                    <thead>
+                        <tr>
+                            <td>
+                                <strong>
+                                    {{foreignLanguage.language}}
+                                </strong>
+                            </td>
+                            <td>
+                                <strong>
+                                    {{foreignLanguage.nativeLanguage}}
+                                </strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            {{phrase1.foreignLanguage}}
+                        </td>
+                        <td>
+                            {{phrase1.englishPhrase}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{phrase2.foreignLanguage}}
+                        </td>
+                        <td>
+                            {{phrase2.englishPhrase}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{phrase3.foreignLanguage}}
+                        </td>
+                        <td>
+                            {{phrase3.englishPhrase}}
+                        </td>
+                    </tr>
+                </table>
+    
+            </div>
+        </section>
+        <section>
+            <h2>
+                Favourite Modules
+            </h2>
+
+            <div class="row">
+                <div class="col s12 m12 l2"><div>
+                    <p style="text-align: center;">
+                        <strong>
+                            {{favouriteSubject1.name}}
+                    </strong>
+                        </p>
+                    <p style="text-align: center;">{{favouriteSubject1.description}}</p>
+                </div>
+            </div>
+                <div class="col s12 m12 l2"><br> <br><img src="{{favouriteSubject1.photo101}}" alt="Management Information System icon"></div>
+                <div class="col s12 m12 l2"> <div>
+                    <p style="text-align: center;">
+                        <strong>
+                            {{favouriteSubject2.name}}
+                        </strong>
+                    </p>
+                    <p style="text-align: center;">
+                        {{favouriteSubject2.description}}
+                    </p>
+                   </div></div>
+                <div class="col s12 m12 l2"> <br> <br> <img src="{{favouriteSubject2.photo201}}" alt="Competitive Intelligence icon"></div>
+                <div class="col s12 m12 l2">  <div>
+                    <p style="text-align: center;">
+                       <strong>
+                        {{favouriteSubject3.name}}
+                       </strong>
+                    </p>
+                    <p style="text-align: center;">
+                        {{favouriteSubject3.description}}
+                    </p>
+                </div>
+            </div>
+                <div class="col s12 m12 l2"> <br> <br> <img src="{{favouriteSubject3.photo3}}" alt="Business Intelligence icon"></div>
+        </div>  
+        </section>
+        <p style="text-align: center;">
+           {{thanks.manners}} 
+        </p>
+        <div class="row">
+            <div class="col s6 m8 l10 offset-s4 offset-m5 offset-l5">
+                <a class="waves-effect waves-light btn" href="index.html">Go to homepage</a>
+            </div>
+          </div>
+            
+      
+    </div>
+    
+
+</body>
+<hr>
+<footer>
+   <div class="card-panel teal lighten-5">
+    <p>
+        {{rights.owner}}  
+     </p>
+   </div> 
+</footer>
+
+</html>

@@ -1,0 +1,58 @@
+{
+    "user": {
+        "fullName": "Thabo Lawrence Ndlovu",
+        "details": "This page is takes you on a journey where you will uncover the small and big interests, goals, milestones and desires of the man referenced below.",
+        "photo": "webpage photos/Thabo Web Photo.jpg"
+        
+    },
+    "city": {
+        "name": "San Francisco",
+        "description": "You must be wondering why San Francisco is the destination of choice. This is the home of Silicon Valley, the global hub of technological innovations. As an aspiring software entrepreneur, Silicone Valley presents the perfect opportunity to meet industry experts and engage in stimulating conversations about the future of the world and how tech can be leveraged to secure a seat as part of the innovators who generate millions of dollars from one simple yet complex technological idea.",
+        "photo": "Webpage photos/Sunrise Sky Scraper.jpg",
+        "photo1": "webpage photos/Blue Lights City.jpg",
+        "pointer": "Scroll down to read more about my academic disciplines and foreign language of interest"
+    },
+    "foreignLanguage": {
+        "language": "Mandarin",
+        "nativeLanguage": "English",
+        "languageDescription": "Mandarin is the most widely spoken language and that is the reason why I would like to learn. In order to appeal to the Chinese audience, effective communication is necessary. I am also fascinated with Chinese culture which will be easier to explore once I know the language."
+    },
+    "phrase1": {
+        "englishPhrase": "Learning is a treasure",
+        "foreignLanguage": "Xuéxí shì yī zhǒng bǎozàng"
+    },
+    "phrase2": {
+        "englishPhrase": "Life comes in phases",
+        "foreignLanguage": "Shēnghuó yǒu bùtóng de jiēduàn"
+    },
+    "phrase3": {
+        "englishPhrase": "Laughter is medicine",
+        "foreignLanguage": "Xiào shì liángyào"
+    },
+    "favouriteSubject1": {
+        "name": "Management Information Systems",
+        "description": "Evaluates various Information Systems used within a business for the efficient collection, storage and distribution of information",
+        "photo1": "webpage photos/MIS Information Flow.jpg",
+        "photo101":  "webpage photos/MIS system.jpg"
+    },
+    "favouriteSubject2": {
+        "name": "Competitive Intelligence",
+        "description": "Popularly known as CI, this module focused on the analysis of the external environment to identify opportunities and threats that arise from competitor actions. The aim is to identify ways to capture more market share over competitors",
+        "photo2": "webpage photos/CI Black Suit.jpg",
+        "photo201": "webpage photos/CI binoculars.jpg"
+    },
+    "favouriteSubject3": {
+        "name": "Business Intelligence",
+        "description": "Business Intelligence is a booming word in corporate spaces and it is mainly about businesses utilising internally available data to uncover insights that can be used to improve processes and procedures for increased profitability",
+        "photo3": "webpage photos/BI at play.jpg"
+    },
+    "thanks":{
+        "manners": "Thank you for visiting my site and sticking around till the end!"
+    },
+    "rights": {
+       "owner": "© 2023 Lawrence & Lumen Holdings. All rights reserved. "
+    },
+    "landing": {
+        "stars":  "webpage photos/Skyline.jpg"
+    }
+}
