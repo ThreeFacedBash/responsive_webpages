@@ -2,7 +2,8 @@
     "user": {
         "fullName": "Thabo Lawrence Ndlovu",
         "details": "This page is takes you on a journey where you will uncover the small and big interests, goals, milestones and desires of the man referenced below.",
-        "photo": "webpage photos/Thabo Web Photo.jpg"
+        "photo": "webpage photos/Thabo Web Photo.jpg",
+        "backphoto": "webpage photos/Cape Town.jpg"
         
     },
     "city": {
