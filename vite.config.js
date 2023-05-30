@@ -14,9 +14,9 @@ export default defineConfig({
         },
     },
     plugins: [handlebars({
-      context : {
+      context : 
         data
-      }
+      
   })]
     
 });
